@@ -1,0 +1,35 @@
+.completed_list{
+    margin-top: 10px;
+    width: 100%;
+    max-height: fit-content;
+    margin-top: 70px;
+}
+.delete_task_completed{
+    display: flex;
+    margin-top: 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 5px;
+    background-color: rgb(255, 49, 49); 
+}
+.line_completed{
+    margin-top: 10px;
+    width: 90%;
+    height: 2px;
+    background-color: black;
+}
+.word_completed_wrap{
+    width: 75%;
+    word-wrap: break-word;
+}
+.word_completed_wrap:hover{
+    width: 97%;
+    transition: 1s;
+    background-color: rgba(56, 255, 76, 0.768);
+    border-radius: 10px 70px 70px 10px;
+}
+.word_completed_wrap::marker{
+    color: greenyellow;
+}
+h3{
+    margin-left: 10px;
+}
